@@ -37,7 +37,6 @@ steps:
 
 
 - task: Deploy vm
-  jobs:
   - deployment: DeployWeb
     displayName: deploy Web App
     pool:
