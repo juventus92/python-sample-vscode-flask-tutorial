@@ -1,13 +1,7 @@
-pool:
-  vmImage: 'ubuntu-latest'
-steps:
-- bash: echo "Hello world"
-
 jobs:
-- job: A
+- job: myJob
+  timeoutInMinutes: 10
+  pool:
+    vmImage: 'ubuntu-latest'
   steps:
-  - bash: echo "A"
-
-- job: B
-  steps:
-  - bash: echo "B"
+  - bash: echo "Hello world"
