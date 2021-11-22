@@ -5,3 +5,9 @@ jobs:
     vmImage: 'ubuntu-latest'
   steps:
   - bash: echo "Hello world"
+- job: newjob
+  steps:
+  - bash:  echo "Hello again"
+- job: nextjob
+  steps:
+  - bash: echo "Hellow again"
