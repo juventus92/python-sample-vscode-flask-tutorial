@@ -35,7 +35,7 @@ steps:
     pytest
   displayName: 'pytest'
 
-steps:
+
 - task: Deploy vm
   jobs:
   - deployment: DeployWeb
